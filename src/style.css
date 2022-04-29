@@ -7,12 +7,15 @@ body {
     background-color: #0B2434;
     padding: 20px;
     font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     background-color: #F5F5F5;
     height: 400px;
-    max-width: 800px;
+    min-width: 500px;
     border-radius: 5px;
     padding: 20px;
     display: flex;
@@ -43,7 +46,7 @@ main {
 .die-face {
     height: 50px;
     width: 50px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     display: flex;
     justify-content: center;
